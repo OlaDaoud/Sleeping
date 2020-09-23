@@ -1,5 +1,5 @@
 
-
+function sleeping_scale(){
 var sleeping_hours ;
 sleeping_hours = prompt('please enter your sleeping hours');
 var sleeping_scale;
@@ -13,3 +13,5 @@ sleeping_scale = 'perfect sleeping';
 alert('Do_not_stop_dreaming keep_sleeping');
 
 document.write(`<h3>${sleeping_scale}</h3>`)
+}
+sleeping_scale(); 
